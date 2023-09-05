@@ -1,1 +1,1 @@
-# cameronwehr.github.io
+This is the personal website of Cameron Wehr. He is a current Data Analyst looking to get more involved with Data Science (particularly in Natural Language Processing) and data for social good. Find out more on his website.

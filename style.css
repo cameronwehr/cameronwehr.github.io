@@ -1,0 +1,89 @@
+/* Reset some basic styles */
+body, h1, ul, li, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: #333;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.nav-list {
+    margin: 0 15px;
+}
+
+.nav-label {
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.nav-label:hover {
+    background-color: #555;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#icons ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+#icons a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 24px; /* This will affect the font-awesome icon size */
+    transition: color 0.3s;
+}
+
+#icons a:hover {
+    color: #555;
+}
+
+/* For Font Awesome Icons */
+.fa-linkedin {
+    color: #0077B5;
+}
+
+.fa-github-square {
+    color: #333;
+}
+
+.fa-envelope-square {
+    color: #D44638;
+}
+
+/* Hover effects for the icons */
+.fa-linkedin:hover, 
+.fa-github-square:hover, 
+.fa-envelope-square:hover {
+    opacity: 0.7;
+}
