@@ -2,37 +2,64 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>cameronwehr</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>cameronwehr</title>
   </head>
 
   <body>
-    <nav class="navbar">
-      <ul class="navbar-nav">
-        <li class="nav-list">
-          <a class="nav-label" href="#">Home</a>
-        </li>
-        <li class="nav-list">
-          <a class="nav-label" href="./about.html">About</a>
-        </li>
-        <li class="nav-list">
-          <a class="nav-label" href="./projects.html">Projects</a>
-        </li>
-      </ul>
-    </nav>
-    <h1>Hello! Cameron here.</h1>
-    <div id="icons">
-      <ul>
-        <a href="https://www.linkedin.com/in/cameronjwehr/"
-          ><i class="fa-linkedin fa-lg"></i
-        ></a>
-        <a href="https://github.com/cjwehr"
-          ><i class="fa-github-square fa-lg"></i
-        ></a>
-        <a href="mailto: cameron.wehr@nyu.edu"
-          ><i class="fa-envelope-square fa-lg"></i
-        ></a>
-      </ul>
-    </div>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <nav class="navbar">
+        <a class="nav-label" class="active" href="#home">Home</a>
+        <a class="nav-label" href="#about">About</a>
+        <a class="nav-label" href="#projects">Projects</a>
+        <a class="nav-label" href="#cv">CV</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello it's Cameron</h3>
+        <h1>Here is my website</h1>
+        <h3>Here is my CV</h3>
+        <p>I love tacos</p>
+        <!-- icons come from https://boxicons.com/?query=github -->
+        <div class="social-media">
+          <a href="https://www.facebook.com/cameronjwehr/"><i class='bx bxl-facebook-circle'></i></a>
+          <a href="www.linkedin.com/in/cameronjwehr"><i class='bx bxl-linkedin' ></i></a>
+          <a href="https://github.com/cameronwehr"><i class='bx bxl-github' ></i></a>
+        </div>
+        <a href="#" class="btn">Download CV</a>
+      </div>
+
+      <!-- this is optional if i want an image on homescreen -->
+      <div class="home-img"></div>
+
+
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="" alt="images.png" alt="this is an example">
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Cameron Wehr</span></h2>
+        <h3>Data Analyst</h3>
+        <p>Description</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="projects" id="projects">
+        
+      </div>
+    </section>
+
   </body>
 </html>
